@@ -40,6 +40,20 @@ body {
     padding: 3px;
 }
 
+.left span:hover{
+    border-bottom: solid 3px #18643e;
+    transition: all 0.5s;
+}
+
+.right{
+    opacity: 90%;
+}
+
+.right:hover{
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
 .br-right {
     border-right: solid 1px #D7D7DD;
     margin: 0px 64px 0px 105px;
@@ -105,10 +119,21 @@ body {
         display: none;
     }
 
+    .tab:hover{
+        transform: translateY(-5px);
+        transition: all 0.5s;
+    }
+
     .img-2 {
         display: block;
         width: 100%;
         padding: 0px 50px;
+        opacity: 90%;
+    }
+
+    .img-2:hover{
+        opacity: 100%;
+        transition: all 0.5s;
     }
 
     .blok {
@@ -173,6 +198,12 @@ body {
         display: block;
         width: 100%;
         margin: 10px 0px 20px;
+        opacity: 90%;
+    }
+
+    .img-3:hover{
+        opacity: 100%;
+        transition: all 0.5s;
     }
 
     .left {
