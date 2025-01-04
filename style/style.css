@@ -57,6 +57,10 @@ body {
     margin-bottom: 67px;
 }
 
+.blok{
+    display: none;
+}
+
 .circle {
     width: 92px;
     height: 92px;
@@ -107,7 +111,7 @@ body {
         padding: 0px 50px;
     }
 
-    #blok {
+    .blok {
         display: none;
     }
 
@@ -175,11 +179,11 @@ body {
         margin-bottom: 40px;
     }
 
-    #none {
+    .none {
         display: none;
     }
 
-    #blok {
+    .blok {
         display: block;
     }
 
